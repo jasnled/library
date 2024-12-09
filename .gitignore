@@ -12,7 +12,7 @@
 /build
 
 # misc
-.youtube.txt
+youtube.txt
 .DS_Store
 .env.local
 .env.development.local
