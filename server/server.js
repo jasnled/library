@@ -16,7 +16,7 @@ const booksController = require('./controllers/books_controller.js');
 app.use('/api/books', booksController);
 
 // LISTEN 
-const port = process.env.PORT || 3400
+const port = process.env.SERVER_PORT || 3400
 app.listen(port, () => {
 console.log(`listening on port: ${port}`);
 });
